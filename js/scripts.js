@@ -9,4 +9,16 @@ $(document).ready(function(){
     $("#baby-hidden").toggle();
   });
 
+  $("#hide-sealion").click(function(){
+    $("#sealion img").fadeOut(1000);
+    $("#hide-sealion").toggle();
+    $("#show-sealion").toggle();
+  });
+
+  $("#show-sealion").click(function(){
+    $("#sealion img").fadeIn(1000);
+    $("#hide-sealion").toggle();
+    $("#show-sealion").toggle();
+  });
+
 });

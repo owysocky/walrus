@@ -7,6 +7,14 @@
 }
 
 
+#hide-sealion {
+  display: none;
+}
+
+#sealion img {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: blue;
@@ -14,5 +22,5 @@
 
 .clickable:hover {
   text-decoration: underline;
-  font-size: 150%;
+  //font-size: 150%;
 }
