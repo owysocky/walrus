@@ -32,3 +32,13 @@
   text-decoration: underline;
   //font-size: 150%;
 }
+
+.light-background {
+  font-color: black;
+  background-color: white;
+}
+
+.dark-background {
+  font-color: white;
+  background-color: black;
+}
