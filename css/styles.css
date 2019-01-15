@@ -6,7 +6,6 @@
   display: none;
 }
 
-
 #hide-sealion {
   display: none;
 }
@@ -14,6 +13,15 @@
 #sealion img {
   display: none;
 }
+
+#hide-seal {
+  display: none;
+}
+
+#seal img {
+  display: none;
+}
+
 
 .clickable {
   cursor: pointer;

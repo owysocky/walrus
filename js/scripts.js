@@ -10,15 +10,22 @@ $(document).ready(function(){
   });
 
   $("#hide-sealion").click(function(){
-    $("#sealion img").fadeOut(1000);
+    $("#sealion img").slideUp(1000);
+  });
+
+  $("#show-sealion").click(function(){
+    $("#sealion img").slideDown(1000);
+  });
+
+  $("#hide-sealion, #show-sealion").click(function(){
     $("#hide-sealion").toggle();
     $("#show-sealion").toggle();
   });
 
-  $("#show-sealion").click(function(){
-    $("#sealion img").fadeIn(1000);
-    $("#hide-sealion").toggle();
-    $("#show-sealion").toggle();
+  $("#hide-seal, #show-seal").click(function(){
+    $("#hide-seal").toggle();
+    $("#show-seal").toggle();
+    $("#seal img").slideToggle(1000);
   });
 
 });
