@@ -1,0 +1,18 @@
+#walrus-showing {
+  display: none;
+}
+
+#baby-showing {
+  display: none;
+}
+
+
+.clickable {
+  cursor: pointer;
+  color: blue;
+}
+
+.clickable:hover {
+  text-decoration: underline;
+  font-size: 150%;
+}
